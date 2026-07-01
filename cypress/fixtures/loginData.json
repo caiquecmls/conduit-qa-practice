@@ -1,0 +1,24 @@
+{
+  "usuarioValido": {
+  "username": "caique1",
+  "email": "caique@teste1.com.br",
+  "password": "caique@1"
+  },
+
+  "usuarioInvalido": {
+    "email": "caique@test.com",
+    "password": "senhaErrada"
+  },
+
+  "usuarioSemEmail": {
+    "email": "",
+    "password": "caique@1"
+  },
+  
+    "usuarioSemSenha": {
+    "email": "caique@teste1.com.br",
+    "password": ""
+  }
+}
+
+
