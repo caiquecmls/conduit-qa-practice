@@ -1,0 +1,64 @@
+{
+  "usuarioComUsernameCurto": {
+    "username": "acv",
+    "email": "caique@test.com",
+    "password": "senhaqualquer"
+  },
+  "usuarioComEmailInvalido": {
+    "username": "caique",
+    "email": "caiquetest.com",
+    "password": "senhaqualquer"
+  },
+  "usuarioComSenhaCurta": {
+    "username": "caique",
+    "email": "caique@test.com",
+    "password": "1234567"
+  },
+  "usuarioSemNome": {
+    "username": "",
+    "email": "caique@test.com",
+    "password": "senhaqualquer"
+  },
+  "usuarioSemEmail": {
+    "username": "caique",
+    "email": "",
+    "password": "senhaqualquer"
+  },
+  "usuarioSemSenha": {
+    "username": "caique",
+    "email": "caique@test.com",
+    "password": ""
+  },
+  "usuarioExistente": {
+    "username": "caique1",
+    "email": "caique@teste1.com.br",
+    "password": "caique@1"
+  },
+  "usuarioSemPreencher": {
+    "username": "",
+    "email": "",
+    "password": ""
+  },
+  "usuarioNomeComEspaço": {
+    "username": "    ",
+    "email": "caique@teste100.com.br",
+    "password": "senhaqualquer"
+  },
+  "messages": {
+    "username": {
+      "curto": "username has already been taken",
+      "vazio": "username can't be blank",
+      "existente": "username has already been taken",
+      "espaco": "username can't be blank"
+    }, 
+    "email": {
+      "invalido": "email is invalid",
+      "vazio": "email can't be blank",
+      "existente": "email has already been taken"
+    },
+    "senha": {
+      "curta": "password is too short",
+      "vazia": "password can't be blank"
+    }
+  }
+}

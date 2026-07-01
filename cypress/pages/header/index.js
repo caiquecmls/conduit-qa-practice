@@ -18,8 +18,16 @@ class Header {
         this.loginSignin();
     }
 
-    userPic(){
+    userPic() {
         return elements.headerImg();
+    }
+
+    signUp() {
+        return elements.headerSignUp().click();
+    }
+
+    goToSignUp() {
+        this.signUp();
     }
 
 }

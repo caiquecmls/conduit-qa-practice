@@ -8,7 +8,7 @@ describe('Login', () => {
         header.goToLogin();
     });
 
-    it.only('deve fazer login com credenciais válidas', () => {
+    it('deve fazer login com credenciais válidas', () => {
         login.inserirCredenciais(loginData.usuarioValido.email, loginData.usuarioValido.password);
         login.submitLogin()
         header.userPic().should('be.visible')
