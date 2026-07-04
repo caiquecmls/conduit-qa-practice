@@ -14,6 +14,22 @@ class Header {
         return elements.headerHomeButton().click();
     }
 
+    headerSettingsButton() {
+        return elements.headerSettings().click();
+    }
+
+    goToSettings() {
+        this.headerSettingsButton();
+    }
+
+    headerNewArticleButton() {
+        return elements.headerNewArticle().click();
+    }
+
+    goToNewArticle() {
+        this.headerNewArticleButton();
+    }
+
     goToHome() {
         this.loginSignin();
     }

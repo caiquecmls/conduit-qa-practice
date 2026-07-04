@@ -1,0 +1,44 @@
+{
+  "tituloExistente": {
+    "title": "Article existente",
+    "description": "Descrição válida",
+    "body": "Conteúdo válido",
+    "tags": "teste"
+  },
+  "todosCamposVazios": {
+    "title": "",
+    "description": "",
+    "body": "",
+    "tags": ""
+  },
+  "tituloVazio": {
+    "title": "",
+    "description": "Descrição válida",
+    "body": "Conteúdo válido",
+    "tags": "teste"
+  },
+  "descricaoVazia": {
+    "title": "Título válido",
+    "description": "",
+    "body": "Conteúdo válido",
+    "tags": "teste"
+  },
+  "conteudoVazio": {
+    "title": "Título válido",
+    "description": "Descrição válida",
+    "body": "",
+    "tags": "teste"
+  },
+  "semTags": {
+    "title": "Título válido",
+    "description": "Descrição válida",
+    "body": "Conteúdo válido",
+    "tags": ""
+  },
+  "articleErrorMessages": {
+    "titleBlank": "title can't be blank",
+    "descriptionBlank": "description can't be blank",
+    "bodyBlank": "body can't be blank",
+    "titleUnique": "title must be unique"
+  }
+}
