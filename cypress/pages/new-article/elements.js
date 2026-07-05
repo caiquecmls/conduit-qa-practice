@@ -3,5 +3,6 @@ export const elements = {
     inputDescription: () => cy.get('input[formcontrolname="description"]'),
     inputBody: () => cy.get('textarea[formcontrolname="body"]'),
     inputTags: () => cy.get('input[placeholder="Enter tags"]'),
-    buttonPublishArticle: () => cy.get('[type="button"]')
+    buttonPublishArticle: () => cy.get('[type="button"]'),
+    messageErro: () => cy.get('[class="error-messages"]')
 };

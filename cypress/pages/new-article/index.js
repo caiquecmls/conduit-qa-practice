@@ -41,12 +41,32 @@ class NewArticle {
         this.buttonPuslish().click()
     }
 
+    messageErro(message) {
+        elements.messageErro().should('contain', message)
+    }
+
     createArticle(title, description, articleBody, tags) {
-        this.typeTitle(title);
-        this.typeDescription(description);
-        this.typeArticleBody(articleBody);
-        this.typeTags(tags);
-        this.buttonPublishArticle();
+        this.inputTitle().clear();
+        if (title) {
+            this.typeTitle(title);
+        }
+        this.inputDescription().clear();
+        if (description) {
+            this.typeDescription(description);
+        }
+        this.inputArticleBody().clear();
+        if (articleBody) {
+            this.typeArticleBody(articleBody);
+        }
+        this.inputTags().clear
+        if (tags) {
+            this.typeTags(tags);
+        }
+
+        if (title && description && articleBody && tags) {
+            this.buttonPublishArticle();
+        }
+
     }
 
 }
