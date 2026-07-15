@@ -67,7 +67,7 @@ describe('Cadastro', () => {
         signup.validateError(signupData.messages.username.espaco);
     });
 
-    it.only('Deve exibir mais de uma mensagem de erro', () => {
+    it('Deve exibir mais de uma mensagem de erro', () => {
         cy.intercept('POST', '**api/users').as('register');
         signup.registerUser(signupData.usuarioExistente.username, signupData.usuarioExistente.email, user.password); 
         cy.wait('@register');

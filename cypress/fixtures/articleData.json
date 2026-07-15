@@ -40,5 +40,12 @@
     "descriptionBlank": "description can't be blank",
     "bodyBlank": "body can't be blank",
     "titleUnique": "title must be unique"
+  },
+  "artigoValido": {
+    "title": "Article cf1qh0n6",
+    "description": "Descrição do artigo",
+    "author": "caique1",
+    "publishedAt": "July 5, 2026",
+    "tags": "Teste"
   }
 }
